@@ -1,0 +1,15 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": " Projeto desenvolvido no modulo de JS avançado dentro do Bootcamp Hiring Coders da Gama Academy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Ana Quadros",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
