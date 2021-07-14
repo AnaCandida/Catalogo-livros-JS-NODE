@@ -27,15 +27,15 @@ const entradaInicial = readline.question(
 if (entradaInicial.toLocaleUpperCase() === 'S') {
   console.log('Essas são as categorias disponíveis:');
   console.log(
-    'Produtividade |',
-    'Historia |',
-    'Americas |',
-    'Tecnologia |',
-    'Estilo de vida',
+    '1 - Produtividade |',
+    '2 - Historia |',
+    '3 - Americas |',
+    '4 - Tecnologia |',
+    '5 - Estilo de vida',
   );
   const entradaCategoria = readline.question('Qual é a categoria  desejada? ');
 
-  const retorno = livros.filter(livro => livro.categoria === entradaCategoria);
+  const retorno = livros.filter(livro => livro.seletor === entradaCategoria);
   console.table(retorno);
   console.log('Boa leitura!!');
 } else {
